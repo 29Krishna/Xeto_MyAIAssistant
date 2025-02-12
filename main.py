@@ -273,8 +273,8 @@ def song(query):
 def condition():
     usage = str(psutil.cpu_percent())
     speak(f"CPU is at {usage} percentage")
-    # battery = psutil.sensors_battery()
-    percentage =39
+    battery = psutil.sensors_battery()
+    percentage =battery.percent
     speak(f"battery is at {percentage} percentage")
 
     if percentage<=40:
