@@ -1,0 +1,1 @@
+("facebook" in query) or ("whatsapp" in query) or ("instagram" in query) or ("discord" in query)
